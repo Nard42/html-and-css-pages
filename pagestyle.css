@@ -3,12 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 .big_container{
-    width: 50%;           /* Set the width of the container */
-    max-width: 1200px;   /* Maximum width */
-    margin: 0 auto;      /* Center the container */
-    padding: 20px;       /* Padding inside the container */
-    background-color: #f0f0f0; /* Background color */
-    border-radius: 8px;  /* Rounded corners */
+    width: 50%;           
+    max-width: 1200px;   
+    margin: 0 auto;     
+    padding: 20px;      
+    background-color: #f0
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .omlette_image{
@@ -54,21 +53,21 @@ h2{
 
 p {
     
-    line-height: 1.6; /* Adjust line height as needed */
+    line-height: 1.6;
     margin-bottom: 20px;
   }
 
-/* ... (rest of your CSS code) ... */
+
 ol {
-    list-style-type: none; /* Remove default list numbers */
+    list-style-type: none;
   }
 ol li::before {
-    content: counter(list-item) ". "; /* Insert the number */
+    content: counter(list-item) ". ";
     color:rgb(108, 34, 9); 
     font-weight: bold; 
     margin-right: 5px;
   }
-/* Nutrition Table Styling */
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -87,7 +86,7 @@ table {
    td:first-child {
     text-align: left;
     
-    padding-right: 10px; /* Reduced padding on the right */
+    padding-right: 10px;
    }
    
    td:last-child {
@@ -95,7 +94,7 @@ table {
     padding-right: 15px;
    }
    
-   /* Style for row separators */
+  
    tr + tr {
     border-top: 1px solid #ccc;
    }
